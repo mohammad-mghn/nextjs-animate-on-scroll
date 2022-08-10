@@ -1,0 +1,7 @@
+node_modules/
+example/
+preview/
+src/
+.eslintignore
+.eslintrc
+.prettierrc
