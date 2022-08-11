@@ -1,6 +1,6 @@
 {
   "name": "nextjs-animate-on-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM Package for Next.js framework to animate components on scroll easily",
   "author": "vito-mohagheghian",
   "license": "MIT",
