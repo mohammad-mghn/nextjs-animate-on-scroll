@@ -22,8 +22,8 @@ function _extends() {
 
 var Animator = function Animator(props) {
   var children = props.children,
-      _props$keyProp = props.keyProp,
-      keyProp = _props$keyProp === void 0 ? 1 : _props$keyProp,
+      _props$UNKey = props.UNKey,
+      UNKey = _props$UNKey === void 0 ? 1 : _props$UNKey,
       _props$bounce = props.bounce,
       bounce = _props$bounce === void 0 ? 0.5 : _props$bounce,
       _props$amountDisplay = props.amountDisplay,
@@ -49,7 +49,7 @@ var Animator = function Animator(props) {
     })
   };
   return /*#__PURE__*/React.createElement(framerMotion.motion.div, {
-    key: keyProp,
+    key: UNKey,
     initial: "offscreen",
     whileInView: "onscreen",
     viewport: {

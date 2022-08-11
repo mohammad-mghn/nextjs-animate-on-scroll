@@ -5,7 +5,7 @@ export { AnimatePresence as AnimateProvider } from 'framer-motion/dist/framer-mo
 const Animator = props => {
   const {
     children,
-    keyProp = 1,
+    UNKey = 1,
     bounce = 0.5,
     amountDisplay = 0.25,
     initial = {
@@ -29,7 +29,7 @@ const Animator = props => {
     }
   };
   return /*#__PURE__*/React.createElement(motion.div, {
-    key: keyProp,
+    key: UNKey,
     initial: "offscreen",
     whileInView: "onscreen",
     viewport: {

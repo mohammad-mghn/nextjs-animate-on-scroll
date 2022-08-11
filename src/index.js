@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion'
 const Animator = (props) => {
   const {
     children,
-    keyProp = 1,
+    UNKey = 1,
     bounce = 0.5,
     amountDisplay = 0.25,
     initial = { scale: 1.2, opacity: 0 },
@@ -28,7 +28,7 @@ const Animator = (props) => {
 
   return (
     <motion.div
-      key={keyProp}
+      key={UNKey}
       initial='offscreen'
       whileInView='onscreen'
       viewport={{ amount: amountDisplay }}
